@@ -99,7 +99,9 @@ body {
         gap: 0;
     }
 
-
+    .nav-links.active {
+        display: flex;
+    }
 
     .nav-links li {
         padding: 15px;
