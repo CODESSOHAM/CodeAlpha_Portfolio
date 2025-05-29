@@ -860,6 +860,48 @@ hr {
   font-size: 1.1rem; 
 }
 
+@media (max-width: 768px) {
+  .work-entry {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Image smaller and above text */
+  .work-img-wrapper {
+    flex: none;
+    margin-left: 0;
+    width: 160px; /* smaller */
+    height: 160px;
+  }
+
+  .work-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+  }
+
+  /* Text under image */
+  .work-details {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .work-details h3 {
+    font-size: 1.5rem;
+  }
+
+  .work-date {
+    font-size: 1.2rem;
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
+}
+
 .projects-section {
   padding: 60px 40px;
   text-align: center;
