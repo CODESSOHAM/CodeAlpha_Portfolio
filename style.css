@@ -88,11 +88,18 @@ body {
 }
 
 @media (max-width: 768px) {
-
-
-    .nav-links.active {
-        display: flex;
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+        gap: 0;
     }
+
+
 
     .nav-links li {
         padding: 15px;
