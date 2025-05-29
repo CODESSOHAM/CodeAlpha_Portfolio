@@ -48,7 +48,7 @@ header {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
-        position: absolute;
+       
         top: 100%;
         left: 0;
         width: 100%;
