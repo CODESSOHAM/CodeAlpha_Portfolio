@@ -424,8 +424,8 @@ footer {
   }
 
   .about-image img {
-    width: 250px;   /* smaller image on mobile */
-    height: 250px;
+    width: 280px;   /* smaller image on mobile */
+    height: 280px;
   }
 
   .about-heading {
