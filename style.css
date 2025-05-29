@@ -623,6 +623,7 @@ footer {
   .academic-text {
     left: 0 !important;
     bottom: 0 !important;
+    margin-top: 10px;
     min-width: auto;
     width: 100%;
     padding: 0 15px;
