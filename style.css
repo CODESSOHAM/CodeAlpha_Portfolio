@@ -417,6 +417,47 @@ footer {
   50% { opacity: 0; }
 }
 
+
+@media (max-width: 768px) {
+  #about {
+    padding: 50px 20px; /* less padding on small screens */
+  }
+
+  .about-image img {
+    width: 250px;   /* smaller image on mobile */
+    height: 250px;
+  }
+
+  .about-heading {
+    font-size: 2rem;  /* smaller heading */
+    margin-bottom: 30px;
+  }
+
+  .intro-text2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  .typing-about {
+    font-size: 1.8rem;
+  }
+
+  .about-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    margin-left: 0;  /* remove left margin for better fit */
+  }
+
+  .about-container {
+    flex-direction: column;  /* stack image and content vertically */
+    align-items: center;
+  }
+}
+
+
 .academic-section {
   padding: 60px 20px;
   position: relative;
