@@ -617,7 +617,7 @@ footer {
 
   .academics-image,
   .academic-image {
-    display: none; /* Hide image completely */
+    display: none; 
   }
 
   .academic-text {
