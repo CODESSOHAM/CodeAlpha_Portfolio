@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Navbar toggle logic
   const toggle = document.getElementById('menu-toggle');
-  const navLinks = document.querySelector('nav-links');
+  const navLinks = document.getElementById("nav-links");
 
   toggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
