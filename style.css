@@ -607,6 +607,57 @@ footer {
     transform: translateX(0);
   }
 }
+
+
+@media (max-width: 768px) {
+  .academic-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .academics-image,
+  .academic-image {
+    display: none; /* Hide image completely */
+  }
+
+  .academic-text {
+    left: 0 !important;
+    bottom: 0 !important;
+    min-width: auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .year {
+    font-size: 1rem;
+  }
+
+  .class {
+    font-size: 1.6rem;
+  }
+
+  .school {
+    font-size: 1.1rem;
+  }
+
+  .academics-heading h2 {
+    font-size: 2.4rem;
+    letter-spacing: 0.5px;
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .academics-heading p {
+    font-size: 0.9rem;
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
+
+
+
 .skills-section {
   padding: 80px 10vw;
   text-align: center;
