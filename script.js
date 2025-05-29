@@ -21,7 +21,6 @@ function createTypingEffect(phrases, targetSelector, delay = 150, deleteSpeed = 
   let currentCharIndex = 0;
   let isDeleting = false;
   const typingSpan = document.querySelector(targetSelector);
-  
 
   function type() {
     const currentPhrase = phrases[currentPhraseIndex];
@@ -54,4 +53,12 @@ function createTypingEffect(phrases, targetSelector, delay = 150, deleteSpeed = 
 document.addEventListener("DOMContentLoaded", () => {
   createTypingEffect(homePhrases, ".typing-text");        // Home section
   createTypingEffect(aboutPhrases, ".typing-about", 120, 50); // About section
+
+  // Navbar toggle logic
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
 });
